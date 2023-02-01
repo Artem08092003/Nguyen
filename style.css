@@ -4,7 +4,7 @@ main {
 }
 
 .introduction {
-	font-size: 50px;
+	font-size: 30px;
 	color: orange;
 }
 
@@ -13,4 +13,19 @@ body {
 	font-family: Arial;
 }
 
+button {
+	font-size: 20px;
+}
 
+.specialization {
+	 font-weight: 800;
+	 
+}
+
+.JAVA {
+	font-weight: 600;
+}
+
+.advice {
+	font-weight: 600;
+}

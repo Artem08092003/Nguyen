@@ -5,11 +5,52 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
    <title>Почему нужно учиться на програмирования</title>
 	<link rel="stylesheet" href="style.css" type="text/css">
+  <base target="_self">
   </head>
 
  <body>
       <header>
-  <img scr ="" alt ="Logo">
+<div>
+  <img src ="Html.png" width="1000" height="500" alt ="Картина о понимание HTML" usemap="#img-HTML">
+  <map name="img-HTML">
+    <area shape="circle" coords="513,83,33" href="https://ru.wikipedia.org/wiki/HTML" title="что такое HTML" alt="HTML">
+    <area shape="circle" coords="740,181,33" target="_blank" href="https://ru.wikipedia.org/wiki/JavaScript" title="Что такое JavaScript" alt="JS">
+    <area shape="circle" coords="443,107,37" target="_blank" href="https://ru.wikipedia.org/wiki/CSS" title="что такое CSS" alt="CSS">
+
+    <area shape="rect" coords="573,80,600,100" target="_blank" href="https://htfi.ru/po/chto_takoe_papka_v_kompyutere.html" title="что такое папка в компьютере" alt="folder">
+    <area shape="rect" coords="357,100,380,130" target="_blank" href="https://neumeka.ru/chto_takoe_fayl.html" title="что такое файл в компьютере" alt="file">
+    
+    <area shape="poly" coords="500,203,360,444,640,444" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4#:~:text=%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4%20(%D0%B0%D0%BD%D0%B3%D0%BB.,backend)." title="кто такой frontend разработчик" alt="fronted">
+  </map>
+</div>
+
+<div>
+  <div>поиск</div>
+  <input list="search"/>
+  <datalist id="search">
+    <option value="HTML">
+    <option value="CSS">
+    <option value="JavaScript">
+    <option value="Git">
+  </datalist>
+</div>
+
+<div>
+  <p><b>Если вы уже знаете на какой специальности поступить,<br> 
+    то укажите ваши данные и напишите специальности в котором хотите стать.</b></p>
+  <form>
+    <fieldset>
+      <legend>Укажите данные, если вы уже знаете на какой специальности идти:</legend>
+      <div><label>Имя:</label><input type="text"></div>
+      <div><label>Электронный адрес:</label><input type="text"></div>
+      <div><label>Специальность в котором захотели стать:</label><input type="text"></div>
+      <div><label>Номер телефон:</label><input type="text"></div>
+      <div><label>Дата рождение:</label><input type="text"></div>
+    </fieldset>
+  </form>
+</div>
+
+<div>
   <nav id ="menu">
   <ul>
     <li><a href ="" target ="_blank" title ="Перенесет на другой сайт"><b>Информация</b></a></li>
@@ -17,48 +58,130 @@
     <li><a href ="" target ="_blank" title ="Перенесет на другой сайт"><i>О наш сайт</i></a></li>
   </ul>
   </nav>
+</div>
        </header>
 
-<aside>
+<aside class="introduction">
+<div>
     <H3>Введение:</H3>
  <div>
-  <ol class="introduction">
+  <ol>
     <li><a href ="#1" title ="Переходит к нужную пунктам на сайте"><strong>Почему именно нужно учиться на програмирования</strong></a></li>
     <li><a href ="#2" title ="Переходит к нужную пуктам на сайте"><b>Как выбрать подходящую специальность</b></a></li>
-    <li><a href = "#3" title ="Переходит к нужную пунктам на сайте"><strong>Список специальности</strong></a></li></ol></div>
+    <li><a href ="#3" title ="Переходит к нужную пунктам на сайте"><strong>Список специальности</strong></a></li>
+    <li><a href ="#4" title ="Переходит к нужную пунктам на сайте"><b>Как Frontend создают таблицы для веб сайта</b></a></li></ol>
+ </div>
+</div>
 </aside>
 
    <main>
-  <ol><H3 id ="1">
-    <li><b>Почему именно нужно учиться на програмирования?</b></li></H3>
+<div>
+  <ol>
+ <div>
+    <H3 id ="1">
+    <li><b>Почему именно нужно учиться на програмирования</b></li></H3>
    <ul>
       <li>Работа будущего</li>
       <li>Можно работать удаленно с хорошей зарплатой</li>
       <li>Востребованная</li>
   </ul>
+ </div>
+ 
+ <div>
    <H3 id ="2">
     <li><b>Как выбрать подходящую специальность:</b></li>
    </H3> 
   <ul>
      <li>Нужно пройти тест по этой <a href ="https://myfreedom.by/test/proforientation" target ="_blank" title ="Ссылка на тест"><i><u>ссылке</u></i></li></a>
      <li> Можно обратиться к нашим специалистам в разделе <a href="#SOS" title="ссылку на обратную связь"><i><u>обратная связь</u></i></a></li>
- </ul>            
+  </ul>
+ </div>
+  
+ <div>
   <H3 id ="3">
-    <li> <abbr title="Специальности список"><b> Список специальности:</b></abbr></li>
+    <li><b> Список специальности:</b></li>
   </H3>
                 <ul>
-                  <li>фронтенд-разработчик;</li>
-                  <li>бэкенд-разработчик;</li>
-                  <li>фуллстек-разработчик;</li>
-                  <li>разработчик игр;</li>
-                  <li>мобильный разработчик;</li>
-                  <li>DevOps-инженер;</li>
-                  <li>тестировщик;</li>
-                  <li>системный администратор;</li>
-                  <li>дата-аналитик;</li>
-                  <li>дата-сайентист.</li>
-                </ul> 
+                  <li class="specialization">фронтенд-разработчик;</li><blockquote cite="https://interesnoe.me/view/content/2"><q><cite>Frontend</cite> — это не больно!</q></blockquote>
+                  <li class="specialization">бэкенд-разработчик;</li>
+                    <article>
+                      <p class="JAVA">пример работой на JAVA:</p>
+                      <pre>
+                      <code>public class Test {// объявляется класс Test
+                      
+                        public static void main(String[] args) {// так включаются программы,
+                                                               // просто запомнить
+                     
+                           System.out.println("Hello world");
+                           System.out.println("5 раз");
+                        }
+                     }</code>
+                      </pre>
+                    </article><br> 
+                  <li class="specialization">фуллстек-разработчик;</li>
+                  <li class="specialization">разработчик игр;</li>
+                  <li class="specialization">мобильный разработчик;</li>
+                  <p class="advice">советы для мобильных разработчиков:</p>
+                  <blockquote cite="https://powerapps.microsoft.com/ru-ru/tips-for-mobile-app-development/">
+                    <q>Совет 1. Изучите потребности своего бизнеса</q><br>
+                    <q>Совет 2. Выберите подходящую платформу для своих потребностей</q><br>
+                    <q>Совет 3. Разрабатывайте дизайн для удобства пользователей</q><br>
+                    <q>Совет 4. Тестируйте приложение в разных условиях</q><br>
+                    <q>Совет 5. Соберите отзывы пользователей</q></blockquote>
+                  <li class="specialization">DevOps-инженер;</li>
+                  <li class="specialization">тестировщик;</li>
+                  <li class="specialization">системный администратор;</li>
+                  <li class="specialization">дата-аналитик;</li>
+                  <li class="specialization">дата-сайентист.</li>
+                </ul>
+ </div> 
+  
+ <div>
+    <H3 id="4">
+      <li><b>Как Frontend создают таблицы для веб сайта</b></li>
+    </H3>
+    <ul>
+      <li>С помощью <abbr title="Hypertext Markup Language">HTML</abbr> - это код, который используется для структурирования и<br>
+          отображения веб-страницы и её контента.</li>
+      <p>Пример:</p>
+      <pre>
+        <code>
+          <table border="1">
+            <caption>таблица №1</caption>
+          <colgroup>
+              <col span="2" style="background-color:red;">
+          </colgroup>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>4</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>7</td>
+              <td>8</td>
+            </tr>
+          </table>
+             чтобы смотреть код в котором создана таблица откройте <em>DevTools</em>, 
+             для того чтобы открыть эту програму, нажмите на
+             кнопку <kbd>f12</kbd> на клавиатуре, далее нажмите на таблицу правой 
+             кнопкой мышкой и нажмите на 
+             "посмотреть код" и увидите код в программе.
+        </code>
+      </pre>
+    </ul>
+ </div>
+
+  
+ 
+
   </ol>
+</div>
 
   <section>
      <H4><b>
@@ -71,31 +194,71 @@
         <li>
         Интересная
         </li>
+        <li>Можно слушать музыку<br>
+          <audio controls><source src="need_for_speed_the_run_04 - Front End.mp3" type="audio/mp3"></audio><br>
+          <button autofocus><a href="https://www.ostmusic.org/view/track/id/7949" target="_blank" title="скачайте музыку здесь">скачать</a></button> </li>
       </ul>
   </section>
 
  <section> 
-  <H4>
-    Реклама 
-  </H4>
-   
+  <H3>
+    Купить картина о мотивация для дома в Яндекс маркете можно здесь:
+  </H3>
+ 
   <article>
-    <H5>Реклама 1</H5>
-    <p>Текст к рекламе</p>
-    <a href ="" target ="_blank" >подробнее</a>
+    <H4>Мотивационный интерьерный постер на стену мотивация картина для интерьера в подарок плакат мотиватор<br>
+      "Чем упорнее, тем удачливее" размера 60х90см 600*900 мм без рамы в тубусе для декора комнаты офиса дома<br>
+       дизайна кухни спальни гостиной детской</H4>
+    <figure><img src="Html2.png" alt="фото картина" width="300" height="500">
+      <figcaption><abbr title="Мотивируй меня Плакат">MMP</abbr></figcaption>
+      <p><b>Описание:</b></p>
+      <p><em>Motivate Me Posters</em> — проект талантливого художника и графического дизайнера из Харькова.<br> 
+        Серия креативных мотивирующих плакатов заставляет двигаться вперед, созидать, заниматься<br>
+        полезным делом, одним словом, не сидеть на месте.<br>
+        Такие принты будут уместно смотреться, например, в лофтовом офисе, коворкинге или<br>
+        рабочем кабинете. Автор работает в техниках акварели, пастели, графики, digital, скетча и коллажа. ...</p>
+    <p><a href ="https://market.yandex.ru/product--motivatsionnyi-poster-chem-upornee-tem-udachlivee/1489594986?suggest_text=%D0%9C%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D
+    0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80%20%22%D0%A7%D0%B5%D0%BC%20%D1%83%D0%BF%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%2C%20%D1%82%D0%B5%D0%
+    BC%20%D1%83%D0%B4%D0%B0%D1%87%D0%BB%D0%B8%D0%B2%D0%B5%D0%B5%22&suggest=1&suggest_type=model&sku=101527052023&cpa=1" target ="_blank" >подробнее</a>
+    </p>
+    </figure>  
   </article>
    
   <article>
-    <H5>Реклама 2</H5>
-    <p>Текст к рекламе</p>
-    <a href ="" target ="_blank">подробнее</a>
+    <H4>Картина интерьерная на рельефной доске мотивационные постеры V - 106</H4>
+     <figure>
+      <img src="Html3.png" alt="Фото картина" width="300" height="500">
+      <figcaption>Картина от бренда <em>Interior painting</em></figcaption>
+      <p><b>Описание</b></p>
+      <p>Картина на дереве станет уникальной деталью интерьера. Интерьерная картина изготовлена из подготовленной<br>
+        древесины нескольких видов: мебельный щит либо сборная картина на досках. Печать по дереву наносится безопасными<br> 
+        красками на современном оборудовании, что делает печать на дереве схожей с кистью художника.<br> 
+        Живопись на древесине - лучший подарок для настоящего ценителя. ...</p>
+      <a href="https://market.yandex.ru/product--kartina-interernaia-na-relefnoi-doske-motivatsionnye-postery-v-106/1443749904?text=%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86
+      %D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%BE%D0%BC%D0%B0&cpc=eQJk0G-el9bUdvKHRLEuaBenfS4YhXpGn9
+      kewi0BVyXEsZY9KGKR_rqIQWwZ0NmxFBhc0l63Cxi24LuhER2dJoGPT3JdoNd-B-WOsqNTb6Z_Hrma2aWW9xCVxhKqvSWWv35OApjZZTXq_OtOLHZ7GroQ3rTPeMKHUseNNoJLjUE%2C&sku=101453770219&do-waremd5
+      =EnK3Jqe0B7F5NnTxJUj6cA&cpa=1&nid=18054993" target="_blank">подробнее</a>
+     </figure>
   </article>
   
   <article>
-  <H5>Реклама 3 </H5>
-  <p>текст к рекламе</p>
-  <a href ="" target"_blank">Подробнее</a>
-     </article>
+  <H4>Сегодня отличный день для подвига. Мотивация постер на стену 20 на 30 см.<br> 
+    шнур-подвес в подарок</H4>
+  <figure>
+    <img src="Html4.png" alt="Фото картина" width="300" height="500">
+    <figcaption>Железная жестяная табличка</figcaption>
+  <p><b>Описание</b></p>
+  <p>Железная жестяная табличка ручной работы, выполнена из 100% металла имеет классический размер 20*30 см.<br> 
+    Края загнуты на 5 мм внутрь. Изображение наносится прямо на железо. Яркие насыщенные и объемные цвета.<br>
+    Табличку можно использовать как в помещении, так и на улице она не боится влаги. Варианты крепления<br>
+    таблички: на саморезы-шурупы, в табличке по углам имеются отверстия или на шнур-подвес из натурального<br>
+    джута, который идёт в подарок. Сделано в России. ...</p>
+  <a href ="https://market.yandex.ru/product--segodnia-otlichnyi-den-dlia-podviga-motivatsiia-poster-na-stenu-20-na-30-sm-shnur-podves-v-podarok/1808094740?text=%D0%A1%D0%B5%D0%B3
+  %D0%BE%D0%B4%D0%BD%D1%8F%20%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C&cpc=WHCucQ99xF0KNS6usCrJ_8peoJSE1wOl7gYoM4qWjrTwf993VqZJ_BQne10saQX-naw2ys
+  v99DvIXys-rnxQ1d93wvW4jf5WuWvWY6bTrTzOHwHKBWe5HDLQqnxp1LOUZ1FWdj65M2uRLDR79gtrQba4940b631a&sku=101903321336&do-waremd5=KKgO27c6BmF7BdAMnA-6Sg&cpa
+  =1&nid=18054993" target"_blank">Подробнее</a>
+  </figure>
+  </article>
    </section>
   </main>
  </body>
